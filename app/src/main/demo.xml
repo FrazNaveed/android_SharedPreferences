@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="1">Hello</string>
+    <string name="2">Hello2</string>
+    <string name="3">Hello3 </string>
+    <string name="4">I made this by dynamically adding views and getting shared preferences dynamically </string>
+    <string name="5">This is a dynamic shared preferences app</string>
+    <string name="6">This is fun 😌</string>
+    <string name="7">🍟🍟🍟🍟🍟😍😍😍🍟🍟🍟</string>
+    <int name="count" value="8" />
+</map>
