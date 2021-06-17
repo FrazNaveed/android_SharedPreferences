@@ -29,6 +29,10 @@ public class MainActivity extends AppCompatActivity {
       text = (EditText) findViewById(R.id.txt);
     }
 
+    /*
+    DESCRIPTION: Because only one value can be saved per key in the shared prefernces. So i created a count variable. That will give id and also
+    determine how many dynamic textviews will be created on the next screen.
+     */
     public void save(View view)
     {
         String txt = text.getText().toString();

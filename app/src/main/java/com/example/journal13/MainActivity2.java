@@ -35,6 +35,8 @@ public class MainActivity2 extends AppCompatActivity {
 
         for (int i = 0; i < N; i++) {
             final TextView rowTextView = new TextView(this);
+
+            // convertering the value of i, this will act as our id
             String id = String.valueOf(i);
             rowTextView.setText(sp.getString(id, ""));
             lLayout.addView(rowTextView);
